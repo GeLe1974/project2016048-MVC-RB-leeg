@@ -1,0 +1,29 @@
+{% extends "layout/HNCF.twig" %}
+{% block hero %}
+	<h1>{{ title }}</h1>
+	<p>{{ message }}</p>
+	<p>{{ data }}</p>
+{% endblock %}
+{% block content %}
+	<div class="row">
+		<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+		</div>
+		<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+			<form action="" method="post" role="form">
+				<legend>Auteur toevoegen</legend>
+				<div class="form-group">
+					<label for="name">Naam</label>
+					<input type="text" class="form-control" name="name" id="" placeholder="naam" required="required">
+					<label for="bio">Biografie</label>
+					<textarea  name="bio" id="" class="form-control" placeholder="korte biografie" title="Bio" required="required" rows="5" ></textarea>
+
+
+				</div>
+				<button type="submit" class="btn btn-primary">Toevoegen</button>
+			</form>
+			
+		</div>
+		<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+		</div>
+	</div>
+{% endblock %}

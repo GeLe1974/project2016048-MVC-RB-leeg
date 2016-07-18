@@ -1,0 +1,40 @@
+{% extends "layout/HNCF.twig" %}
+
+{% block hero %}
+
+    <h1>Auteurs</h1>
+
+{% endblock %}
+
+
+{% block content %}
+
+maxpages =<h1>{{ maxPage }}</h1>
+
+     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+         {% for author in authors %}
+         <div class="panel panel-default">
+             <div class="panel-body">
+                 <h4>{{ author.name }}</h4>
+             </div>
+         </div>
+         {% endfor %}
+         <ul class="pagination pagination-large">
+         	<li><a href="">&laquo;</a></li>
+
+             <li><a href="#">{{ page }}</a></li>
+
+         	<li><a href="">&raquo;</a></li>
+         </ul>
+     </div>
+
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+
+    </div>
+
+
+
+
+{% endblock %}
+
+

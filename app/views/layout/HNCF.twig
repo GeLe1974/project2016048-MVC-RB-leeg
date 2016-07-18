@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CMS</title>
+    <link rel="stylesheet" href="/../bower_components/bootstrap/dist/css/bootstrap.css">
+
+    <link rel="stylesheet" href="http://localhost:8888/project2016043-MVC-RB/public/CSS/style.css">
+
+</head>
+<body>
+<div class="container">
+
+{# Header/Hero/Jumbotron #}
+<div id="content" class="jumbotron">
+
+    {% block hero %}{% endblock %}
+</div>
+{# Einde Header/Hero/Jumbotron #}
+
+{# Navigatie #}
+<nav class="navbar navbar-inverse">
+	<div class="container-fluid">
+		<a class="navbar-brand" href="#">Title</a>
+		<ul class="nav navbar-nav">
+			<li class="active">
+				<a href="#">Home</a>
+			</li>
+			<li>
+				<a href="#">Link</a>
+			</li>
+		</ul>
+	</div>
+</nav>
+
+{# Einde Navigatie #}
+
+
+{# Content #}
+
+	{% block content %}{% endblock %}
+
+{# Einde Content #}
+
+{# Footer #}
+<div id="footer">
+    {% block footer %}
+        &copy; Copyright 2016 by <a href="http://www.oadige-ibis.be" target="_blank">oadige ibis</a>.
+    {% endblock %}
+</div>
+{# Einde Foooter #}
+
+</div>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,283 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "b378bddad08d236920cf7ecce90f3fe1",
+    "content-hash": "b24a6cce31b9e43d1fc50b8308568a16",
+    "packages": [
+        {
+            "name": "romeoz/rock-base",
+            "version": "0.12.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/romeOz/rock-base.git",
+                "reference": "ae1f0c5a835870ea355080d715873ed8233de312"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/romeOz/rock-base/zipball/ae1f0c5a835870ea355080d715873ed8233de312",
+                "reference": "ae1f0c5a835870ea355080d715873ed8233de312",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "romeoz/rock-helpers": "0.12.*"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.7.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.12-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "rock\\base\\": "src/"
+                },
+                "files": [
+                    "src/polyfills.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ruslan",
+                    "email": "serggalka@gmail.com"
+                }
+            ],
+            "description": "Base module for Rock Framework",
+            "keywords": [
+                "common",
+                "framerock",
+                "rock framework"
+            ],
+            "time": "2015-11-06 02:04:27"
+        },
+        {
+            "name": "romeoz/rock-helpers",
+            "version": "0.12.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/romeOz/rock-helpers.git",
+                "reference": "ef14475dbf033a4a719ac24cb2b5586c703165fc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/romeOz/rock-helpers/zipball/ef14475dbf033a4a719ac24cb2b5586c703165fc",
+                "reference": "ef14475dbf033a4a719ac24cb2b5586c703165fc",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "romeoz/rock-base": "0.12.*"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.7.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.12-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "rock\\helpers\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ruslan",
+                    "email": "serggalka@gmail.com"
+                }
+            ],
+            "description": "Helpers for Rock Framework",
+            "keywords": [
+                "helpers",
+                "utils"
+            ],
+            "time": "2015-11-06 21:18:26"
+        },
+        {
+            "name": "romeoz/rock-sanitize",
+            "version": "0.11.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/romeOz/rock-sanitize.git",
+                "reference": "fdcb5abefba5e4bce0698dcccea53b8a165dbc52"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/romeOz/rock-sanitize/zipball/fdcb5abefba5e4bce0698dcccea53b8a165dbc52",
+                "reference": "fdcb5abefba5e4bce0698dcccea53b8a165dbc52",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "romeoz/rock-base": "0.12.*"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.7.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.11-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "rock\\sanitize\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ruslan",
+                    "email": "serggalka@gmail.com"
+                }
+            ],
+            "description": "Flexible sanitizator for PHP.",
+            "keywords": [
+                "sanitization",
+                "sanitizator",
+                "sanitize"
+            ],
+            "time": "2015-11-07 05:01:22"
+        },
+        {
+            "name": "romeoz/rock-validate",
+            "version": "0.12.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/romeOz/rock-validate.git",
+                "reference": "dfa9dd79ea0893b4fb7ed7f77213f0b5b3de4abf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/romeOz/rock-validate/zipball/dfa9dd79ea0893b4fb7ed7f77213f0b5b3de4abf",
+                "reference": "dfa9dd79ea0893b4fb7ed7f77213f0b5b3de4abf",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "romeoz/rock-base": "0.12.*"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.7.0",
+                "romeoz/rock-date": "0.12.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.12-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "rock\\validate\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ruslan",
+                    "email": "serggalka@gmail.com"
+                }
+            ],
+            "description": "Flexible validator for PHP with I18N.",
+            "keywords": [
+                "validate",
+                "validation",
+                "validator"
+            ],
+            "time": "2015-11-07 04:31:28"
+        },
+        {
+            "name": "twig/twig",
+            "version": "v1.24.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twigphp/Twig.git",
+                "reference": "3566d311a92aae4deec6e48682dc5a4528c4a512"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/3566d311a92aae4deec6e48682dc5a4528c4a512",
+                "reference": "3566d311a92aae4deec6e48682dc5a4528c4a512",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.7"
+            },
+            "require-dev": {
+                "symfony/debug": "~2.7",
+                "symfony/phpunit-bridge": "~2.7"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.24-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Twig_": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
+                },
+                {
+                    "name": "Armin Ronacher",
+                    "email": "armin.ronacher@active-4.com",
+                    "role": "Project Founder"
+                },
+                {
+                    "name": "Twig Team",
+                    "homepage": "http://twig.sensiolabs.org/contributors",
+                    "role": "Contributors"
+                }
+            ],
+            "description": "Twig, the flexible, fast, and secure template language for PHP",
+            "homepage": "http://twig.sensiolabs.org",
+            "keywords": [
+                "templating"
+            ],
+            "time": "2016-05-30 09:11:59"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
